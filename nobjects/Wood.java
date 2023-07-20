@@ -4,6 +4,7 @@ class Wood
 	String type;
 	double weight;
 	String color;
+	int length;
 	
 	Wood()
 	{
@@ -38,5 +39,14 @@ class Wood
 		this.color=color;
 		System.out.println(color);
 		System.out.println("Invoking wood int price,String type ,double weight,String color,main");	
+	}
+	Wood(int price,String type,double weight,String color,int length)
+	{
+		
+	    
+	    this(price,type,weight);
+		this.length=length;
+		System.out.println(length);
+		System.out.println("Invoking wood int price,String type ,double weight,String color,length,....main");	
 	}
 }
