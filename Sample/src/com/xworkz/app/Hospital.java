@@ -3,6 +3,8 @@ package com.xworkz.app;
 public class Hospital {
 	public String name="ESI";
 	public String location="Banglore ";
+	public Patient patient;
+	public Nurse nurse;
 	
 	public Doctor doctor =new Doctor();
 	public void floor()
