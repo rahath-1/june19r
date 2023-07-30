@@ -1,6 +1,8 @@
 package com.xworkz.app;
 
 public class PowerBank {
+	public String type="mi";
+	public int price=2000;
 
 	public Battery battery=new Battery();
 	
