@@ -1,0 +1,120 @@
+1
+In a class same method name with different  parameters called MethodOverloading
+class Hotel
+{
+ static void security(String name)
+{
+System.out.println("Invoking main function");
+}
+static void security(String name,int number)
+{
+System.out.println("Invoking Security function ");
+}
+}
+
+
+
+class HotelRunner
+{
+public static void main(String[] args)
+{
+  System.out.println("Invoking main function");
+  Hotel.security("Name");
+  Hotel.security("abcd",12);
+
+ }
+} 
+
+
+
+2.
+Variables= Storage Memory.
+4 types
+1.Local variable-with in the method
+2.static variable-start with the static keyword
+3.Instance Variables
+4.Parameter 
+
+
+
+Class Variables
+{
+public static void main(String[] args)
+{
+String name;
+int number;
+static void emais(String location)
+String name;
+int number;
+}
+}
+
+3.When jvm converts byte code to machine code 
+it creats one space area called as Heap memory
+where heap heap memory consist of 
+Metaspace=Load all classes with the help of class loader.
+Constant pool-Store value.
+Instance memmory-allocates memory.
+Stack emory will access the variables reagrding to it creates frame for thr execution after the execution the frame memory wiill be erased and the value is stored in the memory.
+
+
+4.
+Class Emails
+{
+ static void getEmailsByname( String name)
+
+ String name="Rahath";
+ if(name!=null)
+{
+ 
+}
+
+
+Class EmailRunner
+{
+public static void main(String[] args)
+{
+   Emails email=new Emails();
+   Emails emails=new Emails("Rahath");
+}
+}
+
+
+
+
+
+
+7.
+class Jacket
+{
+static void function(String brand,int price)
+
+Strig brand ="XX";
+int price=3549;
+}
+
+
+Class JacketKiller
+{
+pblic static void main(String[] args)
+{
+Jacket jacket=new Jacket();
+static void diffe(String name)
+{
+super();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

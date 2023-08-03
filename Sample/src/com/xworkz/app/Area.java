@@ -2,7 +2,7 @@ package com.xworkz.app;
 
 public class Area {
 	public String name;
-	public Corporator corporator=new Corporator("Rakesh");
+	public Corporator corporator=new Corporator("aaaaxy");
 	public Area(String name)
 	{
 		System.out.println("Invoking string constructor in Area");

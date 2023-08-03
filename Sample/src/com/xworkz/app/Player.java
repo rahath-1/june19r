@@ -1,7 +1,7 @@
 package com.xworkz.app;
 
 public class Player {
-	Building building=new Building("Shanti Nilaya","RajajiNagar",54);
+	Building building=new Building("lalit","RajajiNagar",54);
 	public String name;
 	public String exp;
 	
@@ -9,10 +9,10 @@ public class Player {
 	Area area2=new Area("Rajkumar Rao");
 	Area area3=new Area(" Kuvempu nagar");
 	Area area4=new Area("Vijaya Nagar");
-	Area area5 =new Area("Yeshwantpur");
+	Area area5 =new Area("Yashwantpur");
 	
 	Area[] area={area1,area2,area3,area4,area5};
-	HomeTown town=new HomeTown("Banglore",522478,area);
+	HomeTown town=new HomeTown("Banglore",522400,area);
 	
 	public Player(String name,String exp)
 	{

@@ -3,8 +3,8 @@ package com.xworkz.app;
 public class Corporator {
 public String corpName;
 	
-	Building building=new Building("Shanti nilaya","Kuvempu Nagara",3);
-	Building building1=new Building("Shrinidhi pg for boys","rajajiNagar",34);
+	Building building=new Building("ESI ospitak","gandhi Nagara",2);
+	Building building1=new Building("Xworkz","rajajiNagar",4);
 	public Building[] buildings={building,building1};
 
 	public Corporator(String corpName) {
